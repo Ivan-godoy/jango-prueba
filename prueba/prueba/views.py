@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
 
-def home():
-    return "Usted esta en la página de Inicio"
+def home(request):
+    return HttpResponse("Usted esta en la página de Inicio")
